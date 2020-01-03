@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    margin: 2rem auto;
+    width: 50%;
+    padding: 1rem 1.5rem;
+    border: 1px solid #777;
+    text-align: center;
+    box-shadow: 0 1rem .6rem -.6rem #777;
+}
+
+.heading {
+    font-size: 3rem;
+    color: lightslategray;
+    margin-bottom: 1rem;
+}
+
+.heading--secondary {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.number-inp {
+  padding: 1rem;
+  outline: none;
+}
+
+.btn {
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 1rem 2rem;
+   background-color: #fff;
+   border: 1px solid #cfcbcb;
+   width: 10rem;
+   border-radius: 3px;
+   text-transform: uppercase;
+}
+
+.inp--success {
+    border: 1px solid greenyellow;
+}
+
+.inp--failure {
+    border: 1px solid red;
+}
