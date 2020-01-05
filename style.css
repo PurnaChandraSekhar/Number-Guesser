@@ -11,6 +11,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    height: 100vh;
+}
+
 .container {
     margin: 2rem auto;
     width: 50%;
@@ -40,6 +44,8 @@ html {
 .number-inp {
   padding: 1rem;
   outline: none;
+  flex: 1;
+  margin-right: 1rem;
 }
 
 .btn {
@@ -49,9 +55,9 @@ html {
    padding: 1rem 2rem;
    background-color: #fff;
    border: 1px solid #cfcbcb;
-   width: 10rem;
    border-radius: 3px;
    text-transform: uppercase;
+   flex: 1;
 }
 
 .inp--success {
@@ -60,4 +66,10 @@ html {
 
 .inp--failure {
     border: 1px solid red;
+}
+
+.message {
+    height: 2rem;
+    padding: 1rem;
+    font-size: 1.2rem;
 }
